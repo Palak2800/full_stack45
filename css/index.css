@@ -17,3 +17,10 @@ a{
     text-decoration: none;
     color: black;
 }
+#button1{
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 50%;
+
+}
