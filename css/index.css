@@ -10,3 +10,10 @@
 .navbar-brand{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.button{
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
