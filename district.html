@@ -40,93 +40,42 @@
               </ul>
             
     </div>
-</nav>
+</nav> 
                                   <!-- Navbar end -->
-<center class="button_group">
-                                  <!-- button 1 -->
-  <div class="row">
-    <div class="col">
-  <div class="button " >
-    <div class="dropdown">
-      <a class="btn  btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-      Select District
-      </a>
-    <ul class="dropdown-menu">
-      <!-- ..li items to be added . -->
-      <li><a href="#" target="_blank">Agar Malwa </a></li>
-      <li><a href="#" target="_blank">Alirajpur</a></li>
-      <li><a href="#" target="_blank">Anuppur</a></li>
-      <li><a href="#" target="_blank">Ashoknagar</a></li>
-      <li><a href="#" target="_blank">Balaghat</a></li>
-      <li><a href="#" target="_blank">Barwan</a></li>
-      <li><a href="#" target="_blank">Betul</a></li>
-      <li><a href="#" target="_blank">Bhind</a></li>
-      <li><a href="#" target="_blank">Bhopal</a></li>
-      <li><a href="#" target="_blank">Burhanpur</a></li>
-      <li><a href="#" target="_blank">Chhatarpur</a></li>
-      <li><a href="#" target="_blank">Chhindwara</a></li>
-      <li><a href="#" target="_blank">Damoh</a></li>
-      <li><a href="#" target="_blank">Datia</a></li>
-      <li><a href="#" target="_blank">Dewas</a></li>
-      <li><a href="#" target="_blank">Dhar</a></li>
-      <li><a href="#" target="_blank">Dindori</a></li>
-      <li><a href="#" target="_blank">East Nimar</a></li>
-      <li><a href="#" target="_blank">Guna</a></li>
-      <li><a href="#" target="_blank">Gwalior</a></li>
-      <li><a href="#" target="_blank">Harda</a></li>
-      <li><a href="#" target="_blank">Hoshangabad</a></li>
-      <li><a href="#" target="_blank">Indore</a></li>
-      <li><a href="#" target="_blank">Jabalpur</a></li>
-      <li><a href="#" target="_blank">Jhabua</a></li>
-      <li><a href="#" target="_blank">Katni</a></li>
-      <li><a href="#" target="_blank">Mandla</a></li>
-      <li><a href="#" target="_blank">Mandsaur</a></li>
-      <li><a href="#" target="_blank">Morena</a></li>
-      <li><a href="#" target="_blank">Narsinghpur</a></li>
-      <li><a href="#" target="_blank">Neemuch</a></li>
-      <li><a href="#" target="_blank">Niwari</a></li>
-      <li><a href="#" target="_blank">Panna</a></li>
-      <li><a href="#" target="_blank">Raisen</a></li>
-      <li><a href="#" target="_blank">Rajgarh</a></li>
-      <li><a href="#" target="_blank">Ratlam</a></li>
-      <li><a href="#" target="_blank">Rewa</a></li>
-      <li><a href="#" target="_blank">Sagar</a></li>
-      <li><a href="#" target="_blank">Satna</a></li>
-      <li><a href="#" target="_blank">Sehore</a></li>
-      <li><a href="#" target="_blank">Seoni</a></li>
-      <li><a href="#" target="_blank">Shahdol</a></li>
-      <li><a href="#" target="_blank">Shajapur</a></li>
-      <li><a href="#" target="_blank">Sheopur</a></li>
-      <li><a href="#" target="_blank">Shivpuri</a></li>
-      <li><a href="#" target="_blank">Sidhi</a></li>
-      <li><a href="#" target="_blank">Singrauli</a></li>
-      <li><a href="#" target="_blank">Tikamgarh</a></li>
-      <li><a href="#" target="_blank">Ujjain</a></li>
-      <li><a href="#" target="_blank">Umaria</a></li>
-      <li><a href="#" target="_blank">Vidisha</a></li>
-      <li><a href="#" target="_blank">West Nimar</a></li>
-      
-    </ul>
-  </div>
-</div>
-                                          <!-- button 2 -->
-<div class="col">
-  <div class="button " >
-       <div class="dropdown" >
-       <a class="btn btn-outline-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-           Hospital 
-                  </a>
-    <ul class="dropdown-menu">
-      <!-- ..li items to be added . -->
-    </ul>
-  </div>
-</div>
-</div>
-</div>
+
+
+
+<!-- cascading dropdown -->
+<center>
+<div class="container my-lg-5 ">
+  <form name="form1" id="form1" action="/action_page.php">
+ 
+  Select: <select name="subject" id="subject">
+    <option value="" selected="selected">Select </option>
+  </select>
+  <br><br>
+  Districts: <select name="topic" id="topic">
+    <option value="" selected="selected">Please select District</option>
+  </select>
+  <br><br>
+  Hospitals: <select name="chapter" id="chapter">
+    <option value="" selected="selected">Select your Hospital</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Submit">  
+
+
+
+</form>
 </div>
 </center>
 
+
+
+
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
+<script src="/js/district.js"></script>
 </body>
 </html>
