@@ -52,7 +52,60 @@ var subjectObject = {
 
     "Jabalpur":["dh Victoriya Hospital Jabalpur","Rani Durgawati Elgain Hospital Jabalpur","phc Khitola","chc Majholi","chc Panagar","phc Natwara","chc Patan","phc Bagharaji","phc Bargi","phc Barela","phc Gosalpur","phc Majhgava","chc Shapura","phc Chargava","phc Bhidaki","chc Kundam","phc Belkheda","phc Sonpur","phc Sigod","phc Kumahi","phc Umariya Chobey","ch Sihora","ch Rajhi"],
 
-      
+      "Katni":["dh Katni","chc Umariyapan","chc Rithi","phc Ghughra","phc Khamtra","phc Bilhari","phc Badagaon","phc Dhimarkheda","phc Kachhargwan Bada","phc Sleemnabad","phc Bakal","phc Bachaiya","phc Teori","chc Bohriband","chc Badwara","phc Basadi","chc Barhi","chc Pahadi","phc Kanhwara","phc Badera","phc Deori Hatai","chc Vijayraghavgarh","phc Kymore","phc Singodi","phc Ghunore"],
+
+      "Jhabua":["chc Ranapur","chc Kalyanpura","chc Rama","chc Meghnagar","chc Para","phc Sarangi","phc Khawasa","phc Raipuriya","phc Jhaknawda","phc Kardawad","phc Karwad","phc Bamniya","phc Bekalda","phc Kakanwani","phc Rambhapur","phc Pitol","phc Umarkot","phc Samoi","phc Kanjawani","phc Mordundiya","phc Pithanpur","phc Meghnagar","chc Para","phc Sarangi","phc Khawasa","phc Kakanwani","phc Umarkot"],
+
+      "Ratlam":["Civil Hospital Jaora","chc Piploda","chc Namli","chc Bajna","Civil Hospital Alot","phc Ringnod","phc Dodhar","phc Pancheva","phc Kalukheda","phc Mavta","phc Sukheda","phc Bilpank","phc Birmawal","phc Dharad","phc Bangrod","phc Dhamnod","phc Raoti","chc Kharwakala","phc Barkhedakala","phc Kanadiya","phc Chandragarh","phc Bhojakhedipp","phc Bardiyagoyal","phc Badawada","chc Tal","District Hospital Ratlam","chc Sailana","phc Sarwan","phc Shivgad","phc Berda","phc Sakrawada"],
+
+      "Khandwa":["phc Dhangaon","phc Chigohan","phc Barud","phc Richfal","phc Jawar","phc Sehajala","phc Sihada","phc Golimal","phc Rosni","phc Boradimal","phc Mohana","phc Beed","phc Gol","phc Jamkota","phc Sulgaon","phc Purni","phc Diwal","phc Sigot","phc Piplod","phc Gudi","phc Gandhawa","phc Ghatakhedi","phc Kalanka","phc Koahdad","phc Arud","phc Ashapur","chc Mundi","chc Pandhana","chc Chhegaon Makhan","chc harhud","chc Khalwa","phc Khar","dh Khandwa"],
+
+      "Mandsaur":["sdh Bhanpura","chc Sitamau","chc Suwasara","chc Dhundharka","phc Nimbod","phc Digaomali","dh Mandsaur","phc Sabakheda","phc Nahargarh","phc Kayampur","Khajuri Nag","phc Bhaugarh","chc Suwasara","chc Malhargarh","phc Sanjeet","phc Budha","phc Kanghatti","chc Narayangarh","phc Budha","phc Kanghatti","phc Melkheda","chc Shamgarh","chc Nagari","phc Amlawad","ch Garoth","phc Sandhara","phc Takrawad","phc Khajuri Panth","phc Hatuniya","phc Parsali Tirth","phc Khaikheda","phc Lasudiya","phc Bardiya Amra","phc Boliya","phc Pawti","phc Khadawda","phc Baloda","phc Pipliyamandi","phc Sathkheda","Balagudha{Umariya}","phc Sanda","phc Dhablamadhosingh","phc Osara","phc Bhensoda","phc Kawala","phc Antraliya","phc Babulda","phc Gandhisagar no 3","phc Gandhisagar no 8","phc Nawali","phc Bhaugarh","Rewas Dewda","phc Gandhisagar no 3","Billod 2","phc Sabhakheda","chc Nagari"],
+
+      "Mandla":["dh","ch Nainpur","chc Bamhani Banjar","chc Bijadandi","chc Niwas","chc Mohgaon","chc Bichhiya","chc Mawai","chc Ghugri","chc Narayanganj","phc Chhindgaon","phc Udaipur","phc Anjani","phc Jamthar","phc Gadra","phc Patha Sihora","phc Tindua Bamhani","phc Chiraidongri","phc Plndri","phc Chubhawal","phc Bakori Ug","phc Hirdenagar","phc Kakaiya","phc Madhopur","phc Mocha","phc Viyaypur","phc Naijher","phc Babaliya","phc Meneri","phc Pipariya","chc Anjaniya","phc Khatiya","phc Bharweli","phc Chandwara","phc Maharajpur","phc Ramnagar","phc Sijhora","phc Ramhepur","phc Surheli","phc Tatri"],
+
+      "Narsingpur":["dh Narsinghpur","chc Salichouka","chc Tendukheda","ch Gadarwara","chc Saikheda","phc Shahpur","chc Khurpa","chc Kareli","chc Gotegaon","phc Chichli","chc Rajmarg","phc Kerpani","phc Bohani","phc Chavarpatha","phc Palhobada","phc Dhamna","phc Barhabada","phc Singhpur","phc Barman","phc Aamgaon","phc Srinagar","phc Barheta","phc Bhama","phc Dhobi","phc Khulri","phc Karakbel","phc Malhapipriya","phc Sehora","phc Mungwani"],
+
+      "Panna":["dh Panna","chc Ajaigarh","chc Devendranagfar","chc Gunour","chc Amanganj","chc Pawai","chc Shahnagar","phc Dharampur","phc Khora","phc Chandora","phc Bariyarpur","phc Rakseha","phc Barachh","phc Itwakla","phc Kakrathi","phc Saleha","phc Kalda","phc Sunwani","phc Simariya","phc Mohindra","phc Hardua Khamariya","phc Bilpura Seharan","phc Raipura"],
+
+      "Neemuch":["phc Bordiya Kala","phc Bordiya Kala","phc Palsoda","phc Chitakheda","chc Jeeran","phc Kukdeshver","phc Mahagrh","phc Kanjarda","phc Parda","phc Bisalwaskala","phc Athana","ch Jawad","chc Mansa","phc Plasoda","chc Singoli","phc Ratangarh","phc Jaar De","phc Kadwasa De","phc Sarwaniya Maharaj","phc Athavakala","phc Diken","phc Jhantala","phc Kakriya Talai","phc Lasoor","phc Nayagaon","phc Kanjarda","phc Kukdeshwar","phc Mahagarh","phc Parda","ch Rampura","chc jeeran","dh Neemuch","phc bisalwas Kala","phc Bordiya Kala","phc Cheeta Kheda","phc Cheeta Kheda"],
+
+      "Rajgarh":["ch Biora","chc Suthalia","phc Lakhanwas","phc Malawar","phc Napanera","phc Todi","chc Khujner","phc Karanwas","phc Karedi","phc Kalipeeth","phc Sustaani","chc Khilchipur","phc Bhojpur","phc Somwariya","phc Chapiheda","ch Sarangpur","chc Pachor","phc Padana","phc Dhamanda","phc Udankhedi","ch Jeerapur","phc Bhagora","phc Ramgarh","phc Ghoghatpur","phc pipliyakulmi","phc Machalpur","ch Narsinghgarh","chc Boda","phc Eklera","phc Kuwarkotri","phc Kotra","phc Bhaisana","phc Dhabla","phc Kurawar","phc Talen"],
+
+      "Raisen":["dh","chc Obedullaganj","Civil Hospital Mandideep","phc Sultanpur","phc Chiklod","chc","chc Goharganj","phc Barkheda","Civil Hospital Bareli","Urban phc Mandideep","phc Dehgaon","phc Khargone","phc Utiya Kalan","chc Badi","chc Gairatganj","ch Begumganj","phc Sultanganj","phc Salamatpur","phc Deewanganj","phc Mudiyakheda","chc Udaipura","phc Deori","chc Silwani","phc Bamhori","phc Jaithari"],
+
+      "Rewa":["dh Rewa","chc Naigarhi","chc Jawa","chc Gangev","ch Sirmaour","chc Govindgarh","chc Raipur","chc Gudh","chc Hanumana","chc Chakghat","chc Semaria","phc Beeda","phc Ragauli","phc Chachayi","phc Majhiyar","phc Baikunthpur","phc Baro","phc Koni","phc Dabhaura","phc Hata","phc Devtalab","pha Malaigawa","phc Amiliha","phc Laxmanpur","phc Barhadi","phc Teekar","phc Rahat","phc Bholgadh","ch Mauganj","phc Dewas","phc Joudari","phc Choukhandi","phc Raipur Sonouri","phc Gadhi","phc Pahadi","phc Dihiya","phc Dhera","ch Teother","phc Lalgawn","phc tiwni","phc Piprahi","phc Jharha"],
+
+      "Sagar":["dh Sagar","chc Jaisinagar","phc Bilhera","chc Deori","phc Agasod","phc Gourjhamar","phc Maharajpur","phc Barkoti","phc Bandari","phc Barodiyakalan","chc Malthone","ch Bina","chc Kesli","chc Mandibamora","phc Sahajpur","uchc Makronia","chc Banda","chc Rahatgarh","phc Sihora","phc Bhaisa","phc","phc"],
+
+      "Satna":["chc Mukundpur","phc Baheliya","phc Bhisampur","phc Jhina","phc Majhgwan","phc Tala","phc Sannehi","ch Amarpatan","chc Amdara","phc Badera","phc Ghunwara","phc Sabhgaj","ch Maihar","chc Majhagwan","phc Baronda","phc Barhana","phc Jaitwara","phc Karigohi","phc Khutha","phc Nayagon","phc Pagar","phc Rimari","ch Nagod","phc Amkui","phc Jaso","phc Round","phc Singpur","phc Usrar","phc Dagdiha","phc ghoordang","phc Kuaan","phc Naina","phc Raigaon","chc Kothi","phc Sohwal","phc Dhawari","chc Devrajnagar","chc Ramnagar","phc Badwar","phc Budbaur","phc Maryadpur","chc Rampurbaghelan","phc Chibioura","phc Chundkhurd","phc Goriya","phc Sajjanpur","phc Selhana","chc Unchehra","phc Baboopur","phc Kulgardi","phc Parasmnaiya","uphc Hanuman Nagar Nai Basti","uphc Tikuriya Tola","uphc Sindhi Camp","dh Satna"],
+
+      "Sehore":["ch Ashta","phc Maina","Civil Hospita Nasrullaganj","Community Health Centre Ichhawar","chc Bilkisganj","Community Health Centre Jawar","chc Doraha","chc Ladkui","Primary Health Centre Bamuliya","phc Itawa Itarsi","chc Shyampur","Primary Health Center Diwadia","phc Ahmadpur","chc Budni","phc Siddkiganj","chc Rehti","Primary Health Centre Ramnagar","phc Gopalpur","phc Kothri","Primary Health Center Bhaukhedi","Primary Health Center Amlaha","phc Baibodi","phc Chakaldi","phc Veerpur Dam","phc Baktara","phc Shahganj","phc Ninore","phc Mardanpur"],
+
+      "Seoni":["chc Ghansore","chc Dhanora","chc Chhapara","chc Kurai","ch Lakhnadon","ch Barghat","ch Keolari","phc Ari","phc Dhuma","phc Kudari","phc Chauki","phc Ugli","phc Behrai","phc Dhapara","phc Aashta","phc Aadegaon","phc Rumal","phc Pandiya Chapara","phc Dhutera","phc Kkawasa","phc Gwari","phc Dhobisarra","phc Piperwani","phc Kahani","phc Durjanpur","phc Kedarpur","phc Bhimgad","phc Deorikala","phc Gorakhpur","phc Chamari","phc Palari","chc Gopalganj","phc Sunwara","phc Kanhiwada","phc Bhoma","phc Mungwani","phc Bakhari","phc Chhui","phc Bandol","District Hospital Seoni"],
+
+      "Shahdol":["Civil Hospital Beohari","dh Shahdol","chc Singhpur","phc Sarsi","chc Jaisinghnagar","chc Gohparu","phc Devlond","phc Amdeeh","phc Khannoudhi","phc Lafda","phc Khairha","phc Majhgawa","phc Kanchanpur","phc Pachgawon","phc Bamhauri","phc Bartara","phc Nipaniya","phc Bholehra","phc Budwa","phc Akhetpur","phc Amraha","phc Kanadi","phc Papredi","chc Burhar","chc Dhanpuri","chc Jhinkbijuri","phc Sakhi","phc Biruhali","phc Rasmohani","phc Jaitpur","phc Rampur","phc Channaudi","phc Keshwahi"],
+
+      "Shajapur":["dh Shajapur","ch Shujalpur City","ch Mandi","ch Akodiya","chc Kalapipal","chc Polaykala","chc Sunderssi","chc Mo. Badodiya","phc Arniyakala","phc Tilwad Maina","phc Khonkarakala","phc Pochaner","phc Awantipur Badodiya","phc Berchha","phc Maksi","phc Jhonkar","phc Makodi","phc Semli","phc Dupada","phc Bolai","phc Ghulana","phc Choti Polay","phc Mohna"],
+
+      "Sheopur":["chc Baroda","phc Sahasram","chc Vijaypur","chc Karhal","phc Beerpur","phc Datarda","phc Agra","phc Premsar","phc Raghunathpur","phc Manpur","phc Dhodhar","phc Bargwan"],
+
+      "Shivpuri":["dh Shivpuri","chc Khaniyadhana","phc Bamorkala","chc Pohari","phc Muharikala","chc Bairad","chc Badarwas","chc Kolaras","phc Dinara","phc Chhrch","phc Khatora","phc Rannod","phc Khod","chc Karera","phc Sirsoed","phc Lukwasa","phc Kharai","chc Stanwara","phc Margoni","chc Pichhore","phc Amolpatha","phc Manpura","chc Narwar","cmho Office"],
+
+      "Sidhi":["dh Sidhi","chc Rampur Naikin","chc Churhat","chc Simariya","chc Sihawal","chc Majhouli","chc Kusmi","phc Bithauli","phc Bahari","phc Pokhara","phc Supela","phc Amarpur","phc Amiliya 2","phc Nakjhar","phc Danga","phc Madwas","phc Khadora","phc Pand","phc Naudhiya","phc Tala","phc Dhanaha","phc Baghwar","phc Badhkhara","phc Posta","phc Hanumangarh","phc Khadii","phc Dadiya","phc Barigawan","phc Karvahi","phc Banzari","phc Kamarji Ug","phc Pondi","phc Tamsar","phc Bhuimad"],
+
+      "Signrauli":["dh Waidhan","chc Chitrangi","chc Bairdah","chc Deosar","chc Sarai","chc Niwas","chc Morwa","chc Khutar","phc Korsar","phc Karthua","phc Naudihwa","phc Khatai","phc Bagdara","phc Bagaiya","phc Bargwan","phc Tingudi","phc Barka","phc Gannai","phc Pipari Naya Tola","phc Mada","phc Khanua","phc Langhadol"],
+
+      "Tikamgarh":["dh Tikamgarh","chc Palera","phc Barana","phc Digoda","phc Lidhora","chc Bamhorikalan","chc Badagaon","chc Jatara","phc Mohangarh","phc Jarua","phc Budera","phc Aston","phc Hata","phc Baisa","phc Sarkanpur","chc Baldevgarh","chc Kharagpur","phc Kachhora","phc Chandera"],
+
+
+
+
+
+
+
+
+
 
        
   },
