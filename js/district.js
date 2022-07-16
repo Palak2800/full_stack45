@@ -98,42 +98,37 @@ var subjectObject = {
 
       "Tikamgarh":["dh Tikamgarh","chc Palera","phc Barana","phc Digoda","phc Lidhora","chc Bamhorikalan","chc Badagaon","chc Jatara","phc Mohangarh","phc Jarua","phc Budera","phc Aston","phc Hata","phc Baisa","phc Sarkanpur","chc Baldevgarh","chc Kharagpur","phc Kachhora","phc Chandera"],
 
+      "Ujjain":["chc Zarda","chc Narwar","ch Khachrod","ch Nagda","chc Ghatiya","phc Bolkheda Nou","phc Tajpur","phc Chapakheda","ch Mahidpur","phc Madawada","chc Ingoriya","chc Tarana","phc Bhatpachlana","ch Madav Nagar","phc Dhablahardu","phc Panbihar","phc Lohana","phc Mahidpur Road","phc Jawasiya Kumar","phc Makdon","phc Nanded","phc Kanasiya","phc Kharsodkala","phc Kheda Khajuriya","phc Panthpiply","phc Unhel","phc Kaytha","phc Jhutawad","phc Ranayara Peer","phc Rupakhedi","ch Badnagar","ch Jivajiganj","phc Chintaman Jawasiya"],
 
+      "Umaria":["chc Manpur","phc Tala","phc Indwar","phc Amarpur","phc Bijouri","phc Dhamokhar","dh Umariya","phc Karkeli","phc Nourozabad","phc Ghulghuli","phc Harahwaah","chc Chandiya","phc Bilaspur","chc Pali","phc Chouri","phc Jamudi"],
 
-
-
-
-
-
-
-
-       
-  },
+      "Vidisha":["dh Vidisha","chc Pipalkheda","phc Sayar","phc Ahmadpur","phc Barro","phc Balabarkheda","ch Ganj Basoda","chc Tyonda","phc Udaypur","phc Kulhar","phc Gamakhar","ch Sironj","phc Garetha","phc Kaswatal","chc Lateri","phc Rusli Sahu","phc Anandpur","chc Kurwai","phc Barwai","Bandravtha","phc Dhova","phc Patharui","phc Layra","chc Gyaraspur","phc Gulabganj","phc Haidergarh","phc Mohmad Garh","chc Nateran","chc Shamshabad","phc Mahu","phc Barkheda Jagir","phc Vardha"]
+  }
 
 }
 window.onload = function() {
   var subjectSel = document.getElementById("subject");
-  var topicSel = document.getElementById("topic");
-  var chapterSel = document.getElementById("chapter");
+  var districtSel = document.getElementById("district");
+  var hospitalSel = document.getElementById("hospital");
   for (var x in subjectObject) {
     subjectSel.options[subjectSel.options.length] = new Option(x, x);
   }
   subjectSel.onchange = function() {
-    //empty Chapters- and Topics- dropdowns
-    chapterSel.length = 1;
-    topicSel.length = 1;
+    //empty  hospital - and district - dropdowns
+    hospitalSel.length = 1;
+    districtSel.length = 1;
     //display correct values
     for (var y in subjectObject[this.value]) {
-      topicSel.options[topicSel.options.length] = new Option(y, y);
+      districtSel.options[districtSel.options.length] = new Option(y, y);
     }
   }
-  topicSel.onchange = function() {
-    //empty Chapters dropdown
-    chapterSel.length = 1;
+  districtSel.onchange = function() {
+    //empty hospital dropdown
+    hospitalSel.length = 1;
     //display correct values
     var z = subjectObject[subjectSel.value][this.value];
     for (var i = 0; i < z.length; i++) {
-      chapterSel.options[chapterSel.options.length] = new Option(z[i], z[i]);
+      hospitalSel.options[hospitalSel.options.length] = new Option(z[i], z[i]);
     }
   }
 }
